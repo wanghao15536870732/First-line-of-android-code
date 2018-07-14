@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    //daname标签用于指定数据库名
+    <dbname value="BookStore" ></dbname>
+
+
+    <!--//version标签用于指定数据库版本号-->
+    <!--<version value="1" ></version>-->
+
+    <version value="2" ></version>
+
+    //list标签用于指定所有的映射模型
+    <list>
+
+
+        //通过mapping标签来声明我们要配置的映射模型类
+        <mapping class="com.example.lab.android.nuc.litepal.Book"></mapping>
+
+
+        //添加一个新的模型
+        <mapping class="com.example.lab.android.nuc.litepal.Category"
+    </list>
+</litepal>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <!--Padding 为内边框，指该控件内部内容，如文本/图片距离该控件的边距-->
+
+    <LinearLayout
+        android:id="@+id/left_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:background="@drawable/message_left">
+        <!--处与整个text的左边-->
+
+        <TextView
+            android:id="@+id/left_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#fff"/>
+
+            <!--处与整个text的中间-->
+        <!--padding是站在父view的角度描述问题，它规定它里面的内容必须与这个父view边界的距离。
+        margin则是站在自己的角度描述问题，规定自己和其他（上下左右）的view之间的距离，
+        如果同一级只有一个view，那么它的效果基本上就和padding一样了;
+        android:padding是设置内容相对view的边框的距离,Android:layout_margin就是设置view的上下左右边框的额外空间;
+        在LinearLayout、RelativeLayout、TableLayout中，这2个属性都是设置都是有效的
+        在FrameLayout中，android:layout_margin是无效的，因为FrameLayout里面的元素都是从左上角开始绘制的
+        在AbsoluteLayout中，没有android:layout_margin属性.-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/right_layout"
+        android:layout_width="wrap_content"
+
+
+
+        
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/message_right">
+
+        <TextView
+            android:id="@+id/right_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp" />
+
+    </LinearLayout>
+</LinearLayout>
