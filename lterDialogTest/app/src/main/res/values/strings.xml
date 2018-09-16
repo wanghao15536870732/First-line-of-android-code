@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">lterDialogTest</string>
+    <string name="data_picker_title">Date of crime:</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.activitytest.FirstActivity">
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello World!"
+        android:textColor="#336699"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#336699"
+        android:text="click" />
+    <EditText
+        android:id="@+id/edit_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Input what you want"
+        android:inputType="text" />
+    
+
+</android.support.constraint.ConstraintLayout>
+
